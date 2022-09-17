@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2370f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    padding: 0px 26px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 8vh;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+
+}
+
+nav .search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0px 20px 0px 128px;
+    padding: 0 8px;
+
+}
+
+.search .btn {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slider {
+    display: flex;
+    margin: 1vh auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+
+main .container {
+    min-height: calc(100vh - 19vh);
+}
+
+
+.card h2 {
+    margin: 5px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.container .card {
+    max-width: 87vw;
+    overflow: scroll;
+    /* background-color:white; */
+    margin: 35px auto;
+}
+
+.all-cards {
+    display: flex;
+}
+
+.card-item {
+    display: flex;
+    width: 10vw;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.card-item .lines p:hover{
+    font-weight: bolder;
+   
+}
+
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
