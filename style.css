@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-    --main-bg-color: #2370f4;
+    --main-bg-color: #2370f5;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
 }
 
 
