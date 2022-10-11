@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-    --main-bg-color: #2370f5;
+    --main-bg-color: #2370f4;
 }
 
 * {
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -27,8 +27,8 @@ nav {
 }
 
 .logo img {
-    width: 90px;
-    padding: 0px 26px;
+    width: 91px;
+    padding: 1px 26px;
 }
 
 nav ul {
