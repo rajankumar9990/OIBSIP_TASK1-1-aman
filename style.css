@@ -5,8 +5,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -27,8 +27,8 @@ nav {
 }
 
 .logo img {
-    width: 90px;
-    padding: 0px 26px;
+    width: 91px;
+    padding: 1px 26px;
 }
 
 nav ul {
